@@ -5,10 +5,6 @@ public class Polynomial {
 		coefficients[0] = 0;
 	}
 	public Polynomial(double[] c1) {
-		/*
-		coefficients = new double[c1.length()];
-		for(int i=0; i<c1.length(); i++)
-			coefficients[i] = c1[i]; */
 		coefficients = c1.clone();
 	}
 	public Polynomial add(Polynomial p) {
