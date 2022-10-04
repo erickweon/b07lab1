@@ -133,7 +133,7 @@ public class Polynomial {
 			String str = "";
 			for(int i=0; i<exponents.length; i++) {
 				if(i == 0)
-					str += coefficients[0];
+					str += Double.toString(coefficients[0]);
 				if(i > 0 && coefficients[i] != 0) {
 					if(i != 0 && coefficients[i] > 0)
 						str += "+";
