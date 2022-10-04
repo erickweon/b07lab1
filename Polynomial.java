@@ -105,7 +105,7 @@ public class Polynomial {
 		Polynomial results = new Polynomial();
 		for(int i=0; i<exponents.length; i++) {
 			double [] tempCoef = new double[p.exponents.length];
-			int [] tempExp = new int[exponents.length];
+			int [] tempExp = new int[p.exponents.length];
 			for(int j=0; j<p.exponents.length; j++) {
 				tempCoef[j] = coefficients[i] * p.coefficients[j];
 				tempExp[j] = exponents[i] + p.exponents[j];

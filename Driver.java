@@ -10,5 +10,7 @@ public class Driver {
         Polynomial result2 = p1.add(p2);
         result.saveToFile("result.txt");
         result2.saveToFile("result2.txt");
+        System.out.println(p1.evaluate(2.0));
+        System.out.println("Has root at 1: " + p1.hasRoot(1));
     } 
 } 
